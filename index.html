@@ -16,18 +16,29 @@
 </head>
 <body>
 
-    <header class="header">
-        <div class="header-container">
-            <a href="#" class="logo">Wanderlust</a>
+    
+<header class="header">
+    <div class="header-container">
 
-            <button class="menu-button" id="menuButton" aria-label="Toggle menu">
-                <svg width="22.5" height="15" viewBox="0 0 22.5 15" fill="none">
-                    <path d="M0 1H22.5M0 7.5H22.5M0 14H22.5"
-                          stroke="#005D90" stroke-width="1.8"/>
-                </svg>
-            </button>
-        </div>
-    </header>
+        <a href="#home" class="logo">Wanderlust</a>
+
+        <nav class="header-nav" id="headerNav">
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#about">About Us</a>
+            <a href="#booking" class="header-book-btn">Book Now</a>
+        </nav>
+
+        <button class="menu-button" id="menuButton" aria-label="Toggle menu">
+    <svg width="22.5" height="15" viewBox="0 0 22.5 15" fill="none">
+        <path d="M0 2H22.5M0 7.5H22.5M0 14H22.5"
+      stroke="#005D90" stroke-width="3"/>
+    </svg>
+</button>
+
+    </div>
+</header>
+
 
     <main class="main-content">
 
@@ -53,6 +64,13 @@
                         experiences.
                     </p>
                 </div>
+                <!-- BOOK NOW BUTTON -->
+<div class="hero-button-container">
+    <a href="#destinations" class="hero-book-btn">
+        Book  Now
+        <span>→</span>
+    </a>
+</div>
 
             </div>
 
@@ -187,6 +205,9 @@ tech.
                 <button class="destination-button">
                     <span>Learn More</span>
                 </button>
+                <button class="destination-button">
+    <span>Book Now</span>
+</button>
             </div>
         </article>
 
